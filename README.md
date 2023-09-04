@@ -1,0 +1,1 @@
+# beckn-for-industry4.0-specification
