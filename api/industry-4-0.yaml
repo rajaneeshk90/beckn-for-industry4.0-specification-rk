@@ -79,7 +79,7 @@ paths:
                           name: Personal loan
                         price:
                           value: 200000
-                          currency: INR
+                          currency: INR 
               Search for Invoice based loans:
                 value:
                   context:
