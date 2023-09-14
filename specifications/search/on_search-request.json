@@ -1,0 +1,132 @@
+{
+  "context": {
+    "domain": "supply-chain-services:0.1.0",
+    "location": {
+      "country": {
+        "code": "DE"
+      }
+    },
+    "version": "1.0.0",
+    "action": "on_search",
+    "bap_id": "supply-chain-protocol.becknprotocol.io",
+    "bap_uri": "https://supply-chain-protocol-network.becknprotocol.io/",
+    "transaction_id": "a9aaecca-10b7-4d19-b640-b047a7c62196",
+    "message_id": "bb579fb8-cb82-4824-be12-fcbc405b6608",
+    "ttl": "PT30M",
+    "timestamp": "2023-05-25T05:23:03.443Z",
+    "bpp_id": "bpp.supply-chain.makerspace.io",
+    "bpp_uri": "https://bpp.supply-chain.makerspace.io"
+  },
+  "message": {
+    "catalog": {
+      "descriptor": {
+        "name": "Makerspace"
+      },
+      "providers": [
+        {
+          "id": "1",
+          "descriptor": {
+            "images": [
+              {
+                "url": "makerspace_logo.png",
+                "size_type": "sm"
+              }
+            ],
+            "name": "Makerspace",
+            "short_desc": "Makerspace",
+            "long_desc": "Makerspace, Hof."
+          },
+          "categories": [
+            {
+              "id": "1001",
+              "descriptor": {
+                "code": "3d-printing",
+                "name": "3D Printing"
+              }
+            }
+          ],
+          "items": [
+            {
+              "id": "66b7b9bad166-4a3f-ada6-ca063dc9d321",
+              "descriptor": {
+                "images": [
+                  {
+                    "url": "box-with-lid-image.png",
+                    "size_type": "sm"
+                  }
+                ],
+                "code": "box-with-lid",
+                "name": "Box with a lid"
+              },
+              "category_ids": [
+                "1001"
+              ],
+              "tags": [
+                {
+                  "descriptor": {
+                    "code": "product-info",
+                    "name": "Product Information"
+                  },
+                  "list": [
+                    {
+                      "descriptor": {
+                        "name": "product-material",
+                        "short_desc": "Product is made up of PVC plastic"
+                      }
+                    },
+                    {
+                      "descriptor": {
+                        "name": "product-lid",
+                        "short_desc": "Product lid is press fit lid"
+                      }
+                    }
+                  ],
+                  "display": true
+                }
+              ],
+              "matched": true,
+              "recommended": true,
+              "xinput": {
+                "head": {
+                  "descriptor": {
+                    "name": "Select color"
+                  },
+                  "index": {
+                    "min": 0,
+                    "cur": 0,
+                    "max": 0
+                  },
+                  "headings": [
+                    "Product Data"
+                  ]
+                },
+                "quantity": {
+                  "descriptor": {
+                    "name": "Select quantity"
+                  },
+                  "index": {
+                    "min": 0,
+                    "cur": 0,
+                    "max": 0
+                  },
+                  "headings": [
+                    "Product Data"
+                  ]
+                },
+              
+                "form": {
+                  "id": "d097c2f5-cb8d-42fe-900e-dfecdede16fb",
+                  "mime_type": "text/html",
+                  "url": "https://formurl",
+                  "resubmit": false,
+                  "multiple_sumbissions": false
+                },
+                "required": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
