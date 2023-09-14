@@ -1,0 +1,103 @@
+{
+    "context": {
+      "domain": "supply-chain-services:0.1.0",
+      "location": {
+        "country": {
+          "code": "DE"
+        }
+      },
+      "action": "on_select",
+      "version": "1.0.0",
+      "bap_uri": "https://supply-chain-protocol-network.becknprotocol.io/",
+      "bap_id": "supply-chain-protocol.becknprotocol.io",
+      "bpp_id": "bpp.supply-chain.makerspace.io",
+      "bpp_uri": "https://bpp.supply-chain.makerspace.io",
+      "transaction_id": "a9aaecca-10b7-4d19-b640-b047a7c62195",
+      "message_id": "c8e3968c-cd78-4e46-aa34-0d541e46bd73",
+      "timestamp": "2023-05-25T05:23:03.443Z",
+      "ttl": "P30M"
+    },
+    "message": {
+      "order": {
+        "provider": {
+          "id": "1",
+          "descriptor": {
+            "images": [
+              {
+                "url": "makerspace_logo.png",
+                "size_type": "sm"
+              }
+            ],
+            "name": "Makerspace",
+            "short_desc": "Makerspace",
+            "long_desc": "Makerspace, Hof."
+          }
+        },
+        "items": [
+          {
+            "id": "66b7b9bad166-4a3f-ada6-ca063dc9d321",
+            "descriptor": {
+              "code": "3d-printing",
+              "name": "3D Printing"
+            },
+            "tags": [
+              {
+                "descriptor": {
+                  "code": "product-info",
+                  "name": "Product Information"
+                },
+                "list": [
+                  {
+                    "descriptor": {
+                      "name": "product-material",
+                      "short_desc": "Product is made up of PVC plastic"
+                    }
+                  },
+                  {
+                    "descriptor": {
+                      "name": "product-lid",
+                      "short_desc": "Product lid is press fit lid"
+                    }
+                  }
+                ],
+                "display": true
+              }
+            ],
+            "order" : {
+                "quote":{ 
+                    "id" : "66b7b9bad166-4a3f-ada6-ca063dc9d321",
+                    "price": {
+                        "currency value": "EUR",
+                        "estimated_value": "55"
+                    }
+                }
+            },
+            "xinput": {
+              "head": {
+                "descriptor": {
+                    "name": "Customer Information - Your Cart"
+                },
+                "index": {
+                    "min": 0,
+                    "cur": 1,
+                    "max": 2
+                },
+                "headings": [
+                    "Order Details",
+                    "Discover more services",
+                    "Proceed to Checkout"
+                ]
+            },
+              "form": {
+                "mime_type": "text/html",
+                "url": "Your-Cart",
+                "resubmit": false,
+                "multiple_sumbissions": false
+              },
+              "required": true
+            }
+          }
+        ]
+      }
+    }
+  }
