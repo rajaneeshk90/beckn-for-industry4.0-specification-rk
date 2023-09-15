@@ -63,7 +63,7 @@
               ],
               "price":{
                 "currency": "EUR",
-                "value": 20
+                "value": 5
               },
               "quantity":{
                 "available": 100,
