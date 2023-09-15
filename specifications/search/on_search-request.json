@@ -61,14 +61,6 @@
               "category_ids": [
                 "1001"
               ],
-              "price":{
-                "currency": "EUR",
-                "value": 5
-              },
-              "quantity":{
-                "available": 100,
-                "minimum": 20
-              },
               "tags": [
                 {
                   "descriptor": {
@@ -92,6 +84,14 @@
                   "display": true
                 }
               ],
+              "price":{
+                "currency": "EUR",
+                "value": 5
+              },
+              "quantity":{
+                "available": 100,
+                "minimum": 20
+              },
               "matched": true,
               "recommended": true,
               "xinput": {
