@@ -1,4 +1,4 @@
-openapi: 1.0.0
+openapi: 3.0.0
 info:
   title: Beckn for Supply Chain API Specification
   description: Adaptation of Beckn protocol for the supply chain services sector.
@@ -113,34 +113,7 @@ paths:
                 - context
                 - message
             examples:
-              Selecting a 3d-printing offer from a lender:
-                value:
-                  context:
-                    domain: supply-chain-services:0.1.0
-                    location:
-                      country:
-                        code: DE
-                    transaction_id: a9aaecca-10b7-4d19-b640-b047a7c62196
-                    message_id: $bb579fb8-cb82-4824-be12-fcbc405b6608
-                    action: select
-                    timestamp: "2023-05-25T05:23:03.443Z"
-                    version: 1.0.0
-                    bap_uri: https://supply-chain-protocol-network.becknprotocol.io/
-                    bap_id: supply-chain-protocol.becknprotocol.io
-                    ttl: PT24H
-                    bpp_id: bpp.supply-chain.makerspace.io
-                    bpp_uri: https://bpp.supply-chain.makerspace.io
-                  message:
-                    order:
-                      provider:
-                        id: "1"
-                      items:
-                        - id: 66b7b9bad166-4a3f-ada6-ca063dc9d321
-                      xinput:
-                        form_response:
-                          status: true
-                          submission_id: c844d5f4-29c3-4398-b594-8b4716ef5dbf
-              Selecting a 3d-printer from the list:
+              Selecting a 3d printer from the list:
                 value:
                   context:
                     domain: supply-chain-services:0.1.0
@@ -239,7 +212,7 @@ paths:
               required:
                 - context
             examples:
-              3d-printer sends its catalog in response to a search request for 3d-printing:
+              3d-printing service sends its catalog in response to a search request for 3d-printing:
                 value:
                   context:
                     domain: supply-chain-services:0.1.0
@@ -295,59 +268,6 @@ paths:
                                   url: https://formurl
                                   submission_id: c844d5f4-29c3-4398-b594-8b4716ef5dbf
                                 required: true                
-              Lender sends its catalog in response to a search request for :
-                value:
-                  context:
-                    domain: supply-chain-services:0.1.0
-                    location:
-                      country:
-                        code: DE
-                    version: 1.0.0
-                    action: on_search
-                    bap_id: supply-chain-protocol.becknprotocol.io
-                    bap_uri: https://supply-chain-protocol-network.becknprotocol.io/
-                    transaction_id: a9aaecca-10b7-4d19-b640-b047a7c62196
-                    message_id: bb579fb8-cb82-4824-be12-fcbc405b6608
-                    ttl: PT30M
-                    timestamp: "2023-05-25T05:23:03.443Z"
-                    bpp_id: bpp.supply-chain.makerspace.io
-                    bpp_uri: https://bpp.supply-chain.makerspace.io
-                  message:
-                    catalog:
-                      descriptor:
-                        name: Makerspace
-                      providers:
-                        - id: "1"
-                          descriptor:
-                            images:
-                              - url: makerspace_logo.png
-                            code: MAKERSPACE
-                            name: MAKERSPACE
-                            short_desc: Makerspace
-                            long_desc: Makerspace, Hof
-                          categories:
-                            - id: "1001"
-                              descriptor:
-                                name: 3D Printing
-                          items:
-                            - id: 66b7b9bad166-4a3f-ada6-ca063dc9d321
-                              descriptor:
-                                name: Box with a lid
-                              tags:
-                                - descriptor:
-                                    name: product-material
-                                    short_desc: Product lid is press fit lid
-                                  list:
-                                    - descriptor:
-                                        name: product-lid
-                                        short_desc: Product lid is press fit lid
-                                  display: true
-                              matched: true
-                              xinput:
-                                form:
-                                  mime_type: text/html
-                                  url: https://formurl
-                                  submission_id: c844d5f4-29c3-4398-b594-8b4716ef5dbf
       responses:
         "200":
           description: Acknowledgement of message received after successful validation of schema and signature
@@ -403,7 +323,7 @@ paths:
               required:
                 - context
             examples:
-              Selected lender sends offer details for the personal loan:
+              Selected provider sends offer details for the 3d printing:
                 value:
                   context:
                     domain: supply-chain-services:0.1.0
