@@ -434,7 +434,7 @@ paths:
                       items:
                         - id: 66b7b9bad166-4a3f-ada6-ca063dc9d321
                           descriptor:
-                            name: "3D Printing" : 100 boxes"
+                            name: 3D Printing - 100 boxes
                             short_desc: 100 3D printed boxes 
                           price:
                             currency: EUR
