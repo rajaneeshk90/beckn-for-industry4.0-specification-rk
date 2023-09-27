@@ -30,19 +30,16 @@
                     "count": 100
                 }
             },
-            "color":{
-                "selected":{
-                    "color":"blue"
-                }
-            },
             "xinput": {
-                "form_response": {
-                  "status": true,
+                "form": {
+                  "url" : "https://urllink.org",
+                  "mime_type": "text/html",
+                  "data": {
+                    "product_type" : "3d printer"
+                  },
                   "submission_id": "cc9aa874-fcf9-4497-aa1d-33419134f9a2"
                 }
-              }
-
-            
+            }
           }
         ]
       }
