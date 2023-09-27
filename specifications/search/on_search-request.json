@@ -89,45 +89,23 @@
                 "value": 5
               },
               "quantity":{
-                "available": 100,
-                "minimum": 20
+                "available": {
+                  "count": 100
+                },
+                "minimum": {
+                  "count" : 20
+                }
               },
               "matched": true,
               "recommended": true,
               "xinput": {
-                "head": {
-                  "descriptor": {
-                    "name": "Select color"
-                  },
-                  "index": {
-                    "min": 0,
-                    "cur": 0,
-                    "max": 0
-                  },
-                  "headings": [
-                    "Product Data"
-                  ]
-                },
-                "quantity": {
-                  "descriptor": {
-                    "name": "Select quantity"
-                  },
-                  "index": {
-                    "min": 0,
-                    "cur": 0,
-                    "max": 0
-                  },
-                  "headings": [
-                    "Product Data"
-                  ]
-                },
-              
                 "form": {
-                  "id": "d097c2f5-cb8d-42fe-900e-dfecdede16fb",
                   "mime_type": "text/html",
                   "url": "https://formurl",
-                  "resubmit": false,
-                  "multiple_sumbissions": false
+                  "data": {
+                    "type" : "3D printing"
+                  },
+                  "submission_id": "d097c2f5-cb8d-42fe-900e-dfecdede16fb"
                 },
                 "required": true
               }
