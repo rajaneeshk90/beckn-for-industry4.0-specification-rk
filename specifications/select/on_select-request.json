@@ -50,20 +50,17 @@
                 "list": [
                   {
                     "descriptor": {
-                      "name": "product-material-type",
-                      "short_desc": "Product is made up of PVC plastic"
+                      "name": "product-material-type"
                     },
                     "value": "PVC-Plastic"
                   },
                   {
                     "descriptor": {
-                      "name": "product-lid-type",
-                      "short_desc": "Product lid is press fit lid"
+                      "name": "product-lid-type"
                     },
                     "value": "Fit-Lid"
                   }
-                ],
-                "display": true
+                ]
               }
             ],
             "quantity": {
