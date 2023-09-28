@@ -70,30 +70,32 @@
                   "list": [
                     {
                       "descriptor": {
-                        "name": "product-material",
-                        "short_desc": "Product is made up of PVC plastic"
-                      }
+                        "name": "product-material-type"
+                      },
+                      "value": "PVC-Plastic"
                     },
                     {
                       "descriptor": {
-                        "name": "product-lid",
-                        "short_desc": "Product lid is press fit lid"
-                      }
+                        "name": "product-lid"
+                      },
+                      "value": "Fit-Lid"
                     }
-                  ],
-                  "display": true
+                  ]
                 }
               ],
               "price":{
                 "currency": "EUR",
-                "value": 5
+                "value": 500
               },
               "quantity":{
                 "available": {
-                  "count": 100
+                  "count": 10
                 },
                 "minimum": {
-                  "count" : 20
+                  "count" : 1
+                },
+                "maximum": {
+                  "count": 5
                 }
               },
               "matched": true,
@@ -101,7 +103,7 @@
               "xinput": {
                 "form": {
                   "mime_type": "text/html",
-                  "url": "https://formurl",
+                  "url": "https://formurl/details",
                   "data": {
                     "type" : "3D printing"
                   },
