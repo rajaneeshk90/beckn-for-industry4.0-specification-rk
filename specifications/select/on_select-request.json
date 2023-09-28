@@ -44,8 +44,8 @@
             "tags": [
               {
                 "descriptor": {
-                  "code": "product-info",
-                  "name": "Product Information"
+                  "code": "material-info",
+                  "name": "Material Information"
                 },
                 "list": [
                   {
@@ -53,36 +53,34 @@
                       "name": "product-material-type"
                     },
                     "value": "PVC-Plastic"
-                  },
-                  {
-                    "descriptor": {
-                      "name": "product-lid-type"
-                    },
-                    "value": "Fit-Lid"
                   }
                 ]
               }
-            ],
-            "quantity": {
-              "selected": {
-                "count": 1
-              },
-              "available": {
-                "count": 10
-              },
-              "maximum": {
-                "count": 5
-              },
-              "minimum": {
-                  "count": 1
-              }
-            },
-            "price": {
-              "currency": "EUR",
-              "value": 500
-            }
+            ]
           }
-        ]
+        ],
+        "quote": {
+          "breakup": [
+            {
+              "price": {
+                "currency": "EUR",
+                "value": "500"
+              },
+              "title": "Base Price"
+            },
+            {
+              "price": {
+                "currency": "EUR",
+                "value": "5"
+              },
+              "title": "Tax"
+            }
+          ],
+          "price": {
+            "currency": "EUR",
+            "value": "550"
+          }
+        }
       }
     }
   }

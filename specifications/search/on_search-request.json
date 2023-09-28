@@ -51,12 +51,12 @@
               "descriptor": {
                 "images": [
                   {
-                    "url": "box-with-lid-image.png",
+                    "url": "https://makerspace/3d/printer.img",
                     "size_type": "sm"
                   }
                 ],
-                "code": "box-with-lid",
-                "name": "Box with a lid"
+                "code": "3D-Printer",
+                "name": "3d Printer"
               },
               "category_ids": [
                 "1001"
@@ -64,8 +64,8 @@
               "tags": [
                 {
                   "descriptor": {
-                    "code": "product-info",
-                    "name": "Product Information"
+                    "code": "material-info",
+                    "name": "Material Information"
                   },
                   "list": [
                     {
@@ -73,12 +73,6 @@
                         "name": "product-material-type"
                       },
                       "value": "PVC-Plastic"
-                    },
-                    {
-                      "descriptor": {
-                        "name": "product-lid"
-                      },
-                      "value": "Fit-Lid"
                     }
                   ]
                 }
@@ -105,9 +99,8 @@
                   "mime_type": "text/html",
                   "url": "https://formurl/details",
                   "data": {
-                    "type" : "3D printing"
-                  },
-                  "submission_id": "d097c2f5-cb8d-42fe-900e-dfecdede16fb"
+                    "cad_file_path": "https://cadfile/for/3d/printing"
+                  }
                 },
                 "required": true
               }
