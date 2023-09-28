@@ -19,6 +19,7 @@
     },
     "message": {
       "order": {
+        "id" : "5",
         "provider": {
           "id": "1",
           "descriptor": {
@@ -49,52 +50,32 @@
                 "list": [
                   {
                     "descriptor": {
-                      "name": "product-material",
+                      "name": "product-material-type",
                       "short_desc": "Product is made up of PVC plastic"
-                    }
+                    },
+                    "value": "PVC-Plastic"
                   },
                   {
                     "descriptor": {
-                      "name": "product-lid",
+                      "name": "product-lid-type",
                       "short_desc": "Product lid is press fit lid"
-                    }
+                    },
+                    "value": "Fit-Lid"
                   }
                 ],
                 "display": true
               }
             ],
-            "order" : {
-                "quote":{ 
-                    "id" : "66b7b9bad166-4a3f-ada6-ca063dc9d321",
-                    "price": {
-                        "currency value": "EUR",
-                        "estimated_value": "500"
-                    }
-                }
+            "quantity": {
+              "selected": {
+                "count": 1,
+                "available": 10,
+                "maximum": 5
+              }
             },
-            "xinput": {
-              "head": {
-                "descriptor": {
-                    "name": "Customer Information - Your Cart"
-                },
-                "index": {
-                    "min": 0,
-                    "cur": 1,
-                    "max": 2
-                },
-                "headings": [
-                    "Order Details",
-                    "Discover more services",
-                    "Proceed to Checkout"
-                ]
-            },
-              "form": {
-                "mime_type": "text/html",
-                "url": "Your-Cart",
-                "resubmit": false,
-                "multiple_sumbissions": false
-              },
-              "required": true
+            "price": {
+              "currency": "EUR",
+              "value": 500
             }
           }
         ]
