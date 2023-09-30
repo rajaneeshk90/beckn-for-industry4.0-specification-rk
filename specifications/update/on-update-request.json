@@ -6,14 +6,14 @@
         "code": "DE"
       }
     },
-    "action": "on_status",
+    "action": "on_update",
     "version": "1.0.0",
     "bap_uri": "https://supply-chain-protocol-network.becknprotocol.io/",
     "bap_id": "supply-chain-protocol.becknprotocol.io",
     "bpp_id": "bpp.supply-chain.makerspace.io",
     "bpp_uri": "https://bpp.supply-chain.makerspace.io",
     "transaction_id": "a9aaecca-10b7-4d19-b640-b047a7c62195",
-    "message_id": "2382b170-16ac-4092-a969-bc413932572a",
+    "message_id": "d03e57ed-8bb9-4a70-9a8e-9e47f39710d8",
     "timestamp": "2023-05-25T05:23:04.443Z",
     "ttl": "P30M"
   },
@@ -24,7 +24,7 @@
           "customer": {
             "contact": {
               "email": "fox.judie@abc.org",
-              "phone": "+91-9999999999"
+              "phone": "+91-81347776660"
             },
             "person": {
               "name": "Judie Fox"
@@ -33,8 +33,8 @@
           "id": "FULFILMENT_ID",
           "state": {
             "descriptor": {
-              "code": "ITEM-PRINTING",
-              "short_desc": "The item is in line for printing"
+              "code": "FULFILLMENT-DETAIL-UPDATED",
+              "short_desc": "Fulfillment details successfully updated on customer request"
             },
             "updated_at": "2023-05-25T05:23:04.443Z"
           }
@@ -123,8 +123,7 @@
           "currency": "EUR",
           "value": "550"
         }
-      },
-      "status": "ACTIVE"
+      }
     }
   }
 }
