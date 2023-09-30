@@ -56,31 +56,16 @@
                   }
                 ]
               }
-            ]
-          }
-        ],
-        "quote": {
-          "breakup": [
-            {
-              "price": {
-                "currency": "EUR",
-                "value": "500"
+            ],
+            "xinput": {
+              "form": {
+                "mime_type": "text/html",
+                "url": "https://formurl/orderdetails"
               },
-              "title": "Base Price"
-            },
-            {
-              "price": {
-                "currency": "EUR",
-                "value": "5"
-              },
-              "title": "Tax"
+              "required": true
             }
-          ],
-          "price": {
-            "currency": "EUR",
-            "value": "550"
           }
-        }
+        ]
       }
     }
   }

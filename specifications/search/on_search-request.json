@@ -93,17 +93,7 @@
                 }
               },
               "matched": true,
-              "recommended": true,
-              "xinput": {
-                "form": {
-                  "mime_type": "text/html",
-                  "url": "https://formurl/details",
-                  "data": {
-                    "cad_file_path": "https://cadfile/for/3d/printing"
-                  }
-                },
-                "required": true
-              }
+              "recommended": true
             }
           ]
         }
