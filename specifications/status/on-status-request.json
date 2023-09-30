@@ -6,14 +6,14 @@
         "code": "DE"
       }
     },
-    "action": "confirm",
+    "action": "on_status",
     "version": "1.0.0",
     "bap_uri": "https://supply-chain-protocol-network.becknprotocol.io/",
     "bap_id": "supply-chain-protocol.becknprotocol.io",
     "bpp_id": "bpp.supply-chain.makerspace.io",
     "bpp_uri": "https://bpp.supply-chain.makerspace.io",
     "transaction_id": "a9aaecca-10b7-4d19-b640-b047a7c62195",
-    "message_id": "1d4a7fa4-3301-4d8a-8146-5ab5fd35db99",
+    "message_id": "2382b170-16ac-4092-a969-bc413932572a",
     "timestamp": "2023-05-25T05:23:04.443Z",
     "ttl": "P30M"
   },
@@ -28,8 +28,13 @@
             },
             "person": {
               "name": "Judie Fox"
-            },
-            "id": "FULFILMENT_ID"
+            }
+          },
+          "id": "FULFILMENT_ID",
+          "state": {
+            "descriptor": {
+              "name": "Printing in line"
+            }
           }
         }
       ],
@@ -42,9 +47,33 @@
           },
           "fulfillment_ids": [
             "FULFILMENT_ID"
+          ],
+          "descriptor": {
+            "name": "Makerspace",
+            "short_desc": "Makerspace"
+          },
+          "price": {
+            "value": "550"
+          },
+          "tags": [
+            {
+              "descriptor": {
+                "code": "material-info",
+                "name": "Material Information"
+              },
+              "list": [
+                {
+                  "descriptor": {
+                    "name": "product-material-type"
+                  },
+                  "value": "PVC-Plastic"
+                }
+              ]
+            }
           ]
         }
       ],
+      "id":"b989c9a9-f603-4d44-b38d-26fd72286b38",
       "payments": [
         {
           "collected_by": "BPP",
@@ -60,6 +89,15 @@
         }
       ],
       "provider": {
+        "name": "Makerspace",
+        "short_desc": "Makerspace",
+        "long_desc": "Makerspace, Hof",
+        "images": [
+          {
+            "url": "makerspace_logo.png",
+            "size_type": "sm"
+          }
+        ],
         "id": "1"
       },
       "quote": {
