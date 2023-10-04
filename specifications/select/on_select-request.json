@@ -65,7 +65,29 @@
               "required": true
             }
           }
-        ]
+        ],
+        "quote": {
+          "breakup": [
+            {
+              "price": {
+                "currency": "EUR",
+                "value": "500"
+              },
+              "title": "Base Price"
+            },
+            {
+              "price": {
+                "currency": "EUR",
+                "value": "5"
+              },
+              "title": "Tax"
+            }
+          ],
+          "price": {
+            "currency": "EUR",
+            "value": "550"
+          }
+        }
       }
     }
   }

@@ -24,12 +24,7 @@
         }, 
         "items": [
           {
-            "id": "66b7b9bad166-4a3f-ada6-ca063dc9d321",
-            "quantity": {
-                "selected": {
-                    "count": 1
-                }
-            }
+            "id": "66b7b9bad166-4a3f-ada6-ca063dc9d321"
           }
         ]
       }
