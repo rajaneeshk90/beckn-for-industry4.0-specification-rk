@@ -38,8 +38,13 @@
           {
             "id": "66b7b9bad166-4a3f-ada6-ca063dc9d321",
             "descriptor": {
-              "code": "3d-printing",
-              "name": "3D Printing"
+              "images": [
+                {
+                  "url": "https://makerspace/3d/box.img",
+                  "size_type": "sm"
+                }
+              ],
+              "name": "printed 3D box"
             },
             "tags": [
               {
@@ -53,6 +58,12 @@
                       "name": "product-material-type"
                     },
                     "value": "PVC-Plastic"
+                  },
+                  {
+                    "descriptor": {
+                      "name": "product-hardness-type"
+                    },
+                    "value": "medium"
                   }
                 ]
               }
@@ -60,34 +71,12 @@
             "xinput": {
               "form": {
                 "mime_type": "text/html",
-                "url": "https://formurl/orderdetails"
+                "url": "https://formurl/orderdetails/box"
               },
               "required": true
             }
           }
-        ],
-        "quote": {
-          "breakup": [
-            {
-              "price": {
-                "currency": "EUR",
-                "value": "500"
-              },
-              "title": "Base Price"
-            },
-            {
-              "price": {
-                "currency": "EUR",
-                "value": "5"
-              },
-              "title": "Tax"
-            }
-          ],
-          "price": {
-            "currency": "EUR",
-            "value": "550"
-          }
-        }
+        ]
       }
     }
   }
