@@ -46,6 +46,9 @@
               ],
               "name": "printed 3D box"
             },
+            "category_ids": [
+              "1001"
+            ],
             "tags": [
               {
                 "descriptor": {
@@ -64,6 +67,26 @@
                       "name": "product-hardness-type"
                     },
                     "value": "medium"
+                  }
+                ]
+              },
+              {
+                "descriptor": {
+                  "code": "color-info",
+                  "name": "Color Info"
+                },
+                "list": [
+                  {
+                    "descriptor": {
+                      "name": "color"
+                    },
+                    "value": "Red"
+                  },
+                  {
+                    "descriptor": {
+                      "name": "color"
+                    },
+                    "value": "Blue"
                   }
                 ]
               }

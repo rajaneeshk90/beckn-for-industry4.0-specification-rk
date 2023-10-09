@@ -36,37 +36,18 @@
             "short_desc": "Makerspace",
             "long_desc": "Makerspace, Hof."
           },
-          "categories": [
-            {
-              "id": "1001",
-              "descriptor": {
-                "code": "3d-box",
-                "name": "3D box"
-              }
-            },
-            {
-              "id": "1002",
-              "descriptor": {
-                "code": "3d-lid",
-                "name": "3D lid"
-              }
-            }
-          ],
           "items": [
             {
               "id": "66b7b9bad166-4a3f-ada6-ca063dc9d321",
               "descriptor": {
                 "images": [
                   {
-                    "url": "https://makerspace/3d/box.img",
+                    "url": "https://makerspace/3d/packaging.png",
                     "size_type": "sm"
                   }
                 ],
-                "name": "printed 3D box"
+                "name": "packaging service"
               },
-              "category_ids": [
-                "1001"
-              ],
               "tags": [
                 {
                   "descriptor": {
@@ -79,12 +60,6 @@
                         "name": "product-material-type"
                       },
                       "value": "PVC-Plastic"
-                    },
-                    {
-                      "descriptor": {
-                        "name": "product-hardness-type"
-                      },
-                      "value": "medium"
                     }
                   ]
                 },
@@ -107,61 +82,24 @@
                       "value": "Blue"
                     }
                   ]
-                }
-              ]
-            },
-            {
-              "id": "0f3e9527-5929-403a-8c10-9386f910ef83",
-              "descriptor": {
-                "images": [
-                  {
-                    "url": "https://makerspace/3d/lid.img",
-                    "size_type": "sm"
-                  }
-                ],
-                "name": "printed 3D lid"
-              },
-              "category_ids": [
-                "1002"
-              ],
-              "tags": [
-                {
-                  "descriptor": {
-                    "code": "material-info",
-                    "name": "Material Information"
-                  },
-                  "list": [
-                    {
-                      "descriptor": {
-                        "name": "product-material-type"
-                      },
-                      "value": "PVC-Plastic"
-                    },
-                    {
-                      "descriptor": {
-                        "name": "product-hardness-type"
-                      },
-                      "value": "medium"
-                    }
-                  ]
                 },
                 {
                   "descriptor": {
-                    "code": "color-info",
-                    "name": "Color Info"
+                    "code": "shape-info",
+                    "name": "Shape Info"
                   },
                   "list": [
                     {
                       "descriptor": {
-                        "name": "color"
+                        "name": "shape"
                       },
-                      "value": "Red"
+                      "value": "Squire"
                     },
                     {
                       "descriptor": {
-                        "name": "color"
+                        "name": "shape"
                       },
-                      "value": "Blue"
+                      "value": "Circular"
                     }
                   ]
                 }

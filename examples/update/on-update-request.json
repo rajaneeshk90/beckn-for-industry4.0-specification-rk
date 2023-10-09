@@ -69,6 +69,26 @@
                     "name": "product-material-type"
                   },
                   "value": "PVC-Plastic"
+                },
+                {
+                  "descriptor": {
+                    "name": "product-hardness-type"
+                  },
+                  "value": "medium"
+                }
+              ]
+            },
+            {
+              "descriptor": {
+                "code": "color-info",
+                "name": "Color Info"
+              },
+              "list": [
+                {
+                  "descriptor": {
+                    "name": "color"
+                  },
+                  "value": "Red"
                 }
               ]
             }

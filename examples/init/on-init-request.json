@@ -36,18 +36,54 @@
       "items": [
         {
           "id": "66b7b9bad166-4a3f-ada6-ca063dc9d321",
-          "price": {
-            "currency": "EUR",
-            "value": "500"
-          },
           "descriptor": {
-            "code": "3d-printing",
-            "name": "3D Printing"
+            "images": [
+              {
+                "url": "https://makerspace/3d/box.img",
+                "size_type": "sm"
+              }
+            ],
+            "name": "printed 3D box"
           },
-          "time": {
-            "duration": "P1Y",
-            "label": "TENURE"
-          }
+          "category_ids": [
+            "1001"
+          ],
+          "tags": [
+            {
+              "descriptor": {
+                "code": "material-info",
+                "name": "Material Information"
+              },
+              "list": [
+                {
+                  "descriptor": {
+                    "name": "product-material-type"
+                  },
+                  "value": "PVC-Plastic"
+                },
+                {
+                  "descriptor": {
+                    "name": "product-hardness-type"
+                  },
+                  "value": "medium"
+                }
+              ]
+            },
+            {
+              "descriptor": {
+                "code": "color-info",
+                "name": "Color Info"
+              },
+              "list": [
+                {
+                  "descriptor": {
+                    "name": "color"
+                  },
+                  "value": "Red"
+                }
+              ]
+            }
+          ]
         }
       ],
       "payments": [
