@@ -55,7 +55,49 @@
                     "value": "Red"
                   }
                 ]
-              }
+              },
+            {
+              "descriptor": {
+                "code": "shape-info",
+                "name": "Shape Info"
+              },
+              "list": [
+                {
+                  "descriptor": {
+                    "name": "shape"
+                  },
+                  "value": "square"
+                }
+              ]
+            },
+            {
+              "descriptor": {
+                "code": "unit-type",
+                "name": "Unit Type"
+              },
+              "list": [
+                {
+                  "descriptor": {
+                    "name": "product-unit"
+                  },
+                  "value": "box"
+                }
+              ]
+            },
+            {
+              "descriptor": {
+                "code": "packaging-category",
+                "name": "Packaging Category"
+              },
+              "list": [
+                {
+                  "descriptor": {
+                    "name": "category"
+                  },
+                  "value": "food"
+                }
+              ]
+            }
           ]
         }
       }

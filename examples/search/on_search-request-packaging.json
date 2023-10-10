@@ -103,7 +103,11 @@
                     }
                   ]
                 }
-              ]
+              ],
+              "price": {
+                "currency": "EUR",
+                "estimated_value": 50
+              }
             }
           ]
         }

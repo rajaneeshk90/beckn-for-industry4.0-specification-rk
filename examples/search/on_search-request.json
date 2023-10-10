@@ -108,7 +108,11 @@
                     }
                   ]
                 }
-              ]
+              ],
+              "price": {
+                "currency": "EUR",
+                "estimated_value": 200
+              }
             },
             {
               "id": "0f3e9527-5929-403a-8c10-9386f910ef83",
@@ -165,7 +169,11 @@
                     }
                   ]
                 }
-              ]
+              ],
+              "price": {
+                "currency": "EUR",
+                "estimated_value": 100
+              }
             }
           ]
         }

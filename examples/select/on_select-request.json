@@ -19,7 +19,6 @@
     },
     "message": {
       "order": {
-        "id" : "5",
         "provider": {
           "id": "1",
           "descriptor": {
@@ -97,6 +96,10 @@
                 "url": "https://formurl/orderdetails/box"
               },
               "required": true
+            },
+            "price": {
+              "currency": "EUR",
+              "estimated_value": 200
             }
           }
         ]
