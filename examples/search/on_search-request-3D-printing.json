@@ -38,18 +38,35 @@
           },
           "categories": [
             {
-              "id": "1001",
+              "id": "c1",
               "descriptor": {
-                "code": "3d-box",
-                "name": "3D box"
+                "code": "Stereolithography",
+                "name": "Stereolithography"
               }
             },
             {
-              "id": "1002",
+              "id": "c2",
               "descriptor": {
-                "code": "3d-lid",
-                "name": "3D lid"
+                "code": "Selective-Laser-Sintering",
+                "name": "Selective-Laser-Sintering"
               }
+            },
+            {
+              "id": "c3",
+              "descriptor": {
+                "code": "Digital-Light-Process",
+                "name": "Digital Light Process"
+              }
+            }
+          ],
+          "fulfillments": [
+            {
+              "id": "f1",
+              "type": "Delivery"
+            },
+            {
+              "id": "f2",
+              "type": "Self-Pickup"
             }
           ],
           "items": [
@@ -58,14 +75,14 @@
               "descriptor": {
                 "images": [
                   {
-                    "url": "https://makerspace/3d/box.img",
+                    "url": "https://makerspace/3d/SLAtype.img",
                     "size_type": "sm"
                   }
                 ],
-                "name": "printed 3D box"
+                "name": "SLA 3D Printing"
               },
               "category_ids": [
-                "1001"
+                "c1"
               ],
               "tags": [
                 {
@@ -111,7 +128,7 @@
               ],
               "price": {
                 "currency": "EUR",
-                "estimated_value": 200
+                "minimum_value": 200
               }
             },
             {
@@ -119,14 +136,14 @@
               "descriptor": {
                 "images": [
                   {
-                    "url": "https://makerspace/3d/lid.img",
+                    "url": "https://makerspace/3d/sls.img",
                     "size_type": "sm"
                   }
                 ],
-                "name": "printed 3D lid"
+                "name": "SLS 3D printing"
               },
               "category_ids": [
-                "1002"
+                "c2"
               ],
               "tags": [
                 {
@@ -172,7 +189,7 @@
               ],
               "price": {
                 "currency": "EUR",
-                "estimated_value": 100
+                "minimum_value": 100
               }
             }
           ]

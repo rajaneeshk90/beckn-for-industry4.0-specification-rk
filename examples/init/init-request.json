@@ -29,7 +29,29 @@
             "person": {
               "name": "Judie Fox"
             }
-          }
+          },
+          "stops": [
+            {
+              "type": "end",
+              "location": {
+                "gps": "1.3806217468119772, 103.74636438437074",
+                "address": "My House #, My building",
+                "city": {
+                  "name": "Jurong East"
+                },
+                "country": {
+                  "code": "SGP"
+                },
+                "area_code":"680230",
+                "state":{
+                  "name": "bayern"
+                }
+              },
+              "contact": {
+                "phone": "9886098860"
+              }
+            }
+          ]
         }
       ],
       "items": [
@@ -44,6 +66,18 @@
       ],
       "provider": {
         "id": "1"
+      },
+      "billing": {
+        "name":"ONDC buyer",
+        "address": "B005 aspire heights, Jurong East, SGP, 680230",
+        "state": {
+          "name": "Jurong East"
+        },
+        "city": {
+          "name": "Jurong East"
+        },
+        "email":"nobody@nomail.com",
+        "phone":"9886098860"
       }
     }
   }

@@ -39,14 +39,14 @@
             "descriptor": {
               "images": [
                 {
-                  "url": "https://makerspace/3d/box.img",
+                  "url": "https://makerspace/3d/SLAtype.img",
                   "size_type": "sm"
                 }
               ],
-              "name": "printed 3D box"
+              "name": "SLA 3D Printing"
             },
             "category_ids": [
-              "1001"
+              "c1"
             ],
             "tags": [
               {
@@ -93,13 +93,13 @@
             "xinput": {
               "form": {
                 "mime_type": "text/html",
-                "url": "https://formurl/orderdetails/box"
+                "url": "https://formurl/orderdetails/3d-printing"
               },
               "required": true
             },
             "price": {
               "currency": "EUR",
-              "estimated_value": 200
+              "minimum_value": 200
             }
           }
         ]
