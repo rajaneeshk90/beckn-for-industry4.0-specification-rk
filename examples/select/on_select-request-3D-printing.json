@@ -63,9 +63,21 @@
                   },
                   {
                     "descriptor": {
+                      "name": "product-material-type"
+                    },
+                    "value": "HDPE-Plastic"
+                  },
+                  {
+                    "descriptor": {
                       "name": "product-hardness-type"
                     },
                     "value": "medium"
+                  },
+                  {
+                    "descriptor": {
+                      "name": "product-hardness-type"
+                    },
+                    "value": "hard"
                   }
                 ]
               },
@@ -91,15 +103,35 @@
               }
             ],
             "xinput": {
+              "required": true,
+              "head": {
+                "descriptor": {
+                  "name": "Configuration Form"
+                },
+                "index": {
+                  "min": 0,
+                  "cur": 0,
+                  "max": 0
+                },
+                "headings": [
+                  "Configuration Details"
+                ]
+              },
               "form": {
                 "mime_type": "text/html",
-                "url": "https://formurl/orderdetails/3d-printing"
-              },
-              "required": true
+                "url": "https://formurl/orderdetails/3d-printing",
+                "resubmit": false,
+                "auth": {
+                  "descriptor": {
+                    "code": "jwt"
+                  },
+                  "value": "eyJhbGciOiJIUzI.eyJzdWIiOiIxMjM0NTY3O.SflKxwRJSMeKKF2QT4"
+                }
+              }
             },
             "price": {
               "currency": "EUR",
-              "minimum_value": 200
+              "value": "starting from 200 EUR"
             }
           }
         ]

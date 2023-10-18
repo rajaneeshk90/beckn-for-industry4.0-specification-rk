@@ -24,14 +24,12 @@
         }, 
         "items": [
           {
-            "id": "66b7b9bad166-4a3f-ada6-ca063dc9d321",
-            "fulfillment_ids": [
-              "f1"
-            ]
+            "id": "66b7b9bad166-4a3f-ada6-ca063dc9d321"
           }
         ],
         "fulfillments": [
           {
+            "id": "f1",
             "stops": [
               {
                 "type": "end",

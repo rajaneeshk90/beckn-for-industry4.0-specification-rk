@@ -99,9 +99,21 @@
                     },
                     {
                       "descriptor": {
+                        "name": "product-material-type"
+                      },
+                      "value": "HDPE-Plastic"
+                    },
+                    {
+                      "descriptor": {
                         "name": "product-hardness-type"
                       },
                       "value": "medium"
+                    },
+                    {
+                      "descriptor": {
+                        "name": "product-hardness-type"
+                      },
+                      "value": "hard"
                     }
                   ]
                 },
@@ -126,9 +138,13 @@
                   ]
                 }
               ],
+              "fulfillment_ids": [
+                "f1",
+                "f2"
+              ],
               "price": {
                 "currency": "EUR",
-                "minimum_value": 200
+                "value": "starting from 200 EUR"
               }
             },
             {
@@ -189,7 +205,7 @@
               ],
               "price": {
                 "currency": "EUR",
-                "minimum_value": 100
+                "value": "starting from 200 EUR"
               }
             }
           ]

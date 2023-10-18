@@ -80,8 +80,11 @@
               },
               "price": {
                 "currency": "EUR",
-                "minimum_value": 50
-              }
+                "value": "starting from 50 EUR"
+              },
+              "category_ids" : [
+                "c3"
+              ]
             }
           ]
         }
