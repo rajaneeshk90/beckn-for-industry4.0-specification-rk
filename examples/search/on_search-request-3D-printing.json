@@ -59,16 +59,6 @@
               }
             }
           ],
-          "fulfillments": [
-            {
-              "id": "f1",
-              "type": "Delivery"
-            },
-            {
-              "id": "f2",
-              "type": "Self-Pickup"
-            }
-          ],
           "items": [
             {
               "id": "66b7b9bad166-4a3f-ada6-ca063dc9d321",
@@ -207,6 +197,16 @@
                 "currency": "EUR",
                 "value": "starting from 200 EUR"
               }
+            }
+          ],
+          "fulfillments": [
+            {
+              "id": "f1",
+              "type": "Delivery"
+            },
+            {
+              "id": "f2",
+              "type": "Self-Pickup"
             }
           ]
         }

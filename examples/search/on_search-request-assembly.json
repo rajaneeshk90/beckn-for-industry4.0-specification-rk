@@ -72,11 +72,11 @@
               "descriptor": {
                 "images": [
                   {
-                    "url": "https://makerspace/assembly/classic.png",
+                    "url": "https://makerspace/assembly/intermittent.png",
                     "size_type": "sm"
                   }
                 ],
-                "name": "Classic assembly"
+                "name": "Intermittent assembly type"
               },
               "price": {
                 "currency": "EUR",
@@ -85,6 +85,16 @@
               "category_ids" : [
                 "c3"
               ]
+            }
+          ],
+          "fulfillments": [
+            {
+              "id": "f1",
+              "type": "Delivery"
+            },
+            {
+              "id": "f2",
+              "type": "Self-Pickup"
             }
           ]
         }
