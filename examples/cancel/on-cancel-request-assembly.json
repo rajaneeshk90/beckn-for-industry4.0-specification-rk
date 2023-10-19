@@ -77,6 +77,16 @@
           "transaction_id": "a35b56cf-e5cf-41f1-9b5d-fa99d8d5ac8c"
         }
       ],
+      "cancellation_terms" : [
+        {
+          "cancellation_fee" : {
+            "amount" : {
+              "currency" : "INR",
+              "value" : "Penalty upto 100 EUR"
+            }
+          }
+        }
+      ],
       "provider": {
         "name": "Makerspace",
         "short_desc": "Makerspace",
@@ -88,28 +98,6 @@
           }
         ],
         "id": "1"
-      },
-      "quote": {
-        "breakup": [
-          {
-            "price": {
-              "currency": "EUR",
-              "value": "200"
-            },
-            "title": "Base Price"
-          },
-          {
-            "price": {
-              "currency": "EUR",
-              "value": "50"
-            },
-            "title": "Tax"
-          }
-        ],
-        "price": {
-          "currency": "EUR",
-          "value": "250"
-        }
       }
     }
   }

@@ -181,7 +181,17 @@
           "currency": "EUR",
           "value": "550"
         }
-      }
+      },
+      "cancellation_terms" : [
+        {
+          "cancellation_fee" : {
+            "amount" : {
+              "currency" : "INR",
+              "value" : "Penalty upto 100 EUR"
+            }
+          }
+        }
+      ]
     }
   }
 }
