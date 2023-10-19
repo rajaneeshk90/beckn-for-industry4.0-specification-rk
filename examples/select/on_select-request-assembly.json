@@ -80,6 +80,20 @@
               "value": "starting from 50 EUR"
             }
           }
+        ],
+        "fulfillments": [
+          {
+            "id": "f1",
+            "stops": [
+              {
+                "type": "end",
+                "location": {
+                  "gps": "1.3806217468119772, 103.74636438437074",
+                  "area_code": "680230"
+                }
+              }
+            ]
+          }
         ]
       }
     }
