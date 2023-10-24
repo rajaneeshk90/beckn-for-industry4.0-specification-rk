@@ -88,14 +88,14 @@
                 ],
                 "name": "Intermittent assembly type"
               },
-              "price": {
-                "currency": "EUR",
-                "value": "starting from 50 EUR"
-              },
               "category_ids" : [
                 "c3"
               ],
-              "fulfillment_ids": ["f1"]
+              "fulfillment_ids": ["f1"],
+              "price": {
+                "currency": "EUR",
+                "value": "starting from 50 EUR"
+              }
             }
           ]
         }

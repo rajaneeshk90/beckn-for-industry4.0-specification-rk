@@ -59,6 +59,16 @@
               }
             }
           ],
+          "fulfillments": [
+            {
+              "id": "f1",
+              "type": "Delivery"
+            },
+            {
+              "id": "f2",
+              "type": "Self-Pickup"
+            }
+          ],
           "items": [
             {
               "id": "66b7b9bad166-4a3f-ada6-ca063dc9d321",
@@ -73,6 +83,10 @@
               },
               "category_ids": [
                 "c1"
+              ],
+              "fulfillment_ids": [
+                "f1",
+                "f2"
               ],
               "tags": [
                 {
@@ -128,10 +142,6 @@
                   ]
                 }
               ],
-              "fulfillment_ids": [
-                "f1",
-                "f2"
-              ],
               "price": {
                 "currency": "EUR",
                 "value": "starting from 200 EUR"
@@ -150,6 +160,9 @@
               },
               "category_ids": [
                 "c2"
+              ],
+              "fulfillment_ids": [
+                "f1"
               ],
               "tags": [
                 {
@@ -197,16 +210,6 @@
                 "currency": "EUR",
                 "value": "starting from 200 EUR"
               }
-            }
-          ],
-          "fulfillments": [
-            {
-              "id": "f1",
-              "type": "Delivery"
-            },
-            {
-              "id": "f2",
-              "type": "Self-Pickup"
             }
           ]
         }
