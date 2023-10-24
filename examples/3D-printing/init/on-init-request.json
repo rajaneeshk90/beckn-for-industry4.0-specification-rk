@@ -19,42 +19,20 @@
   },
   "message": {
     "order": {
-      "fulfillments": [
-        {
-          "id": "f1",
-          "customer": {
-            "contact": {
-              "email": "fox.judie@abc.org",
-              "phone": "+91-9999999999"
-            },
-            "person": {
-              "name": "Judie Fox"
-            }
-          },
-          "stops": [
+      "provider": {
+        "descriptor": {
+          "name": "Makerspace",
+          "short_desc": "Makerspace",
+          "long_desc": "Makerspace, Hof",
+          "images": [
             {
-              "type": "end",
-              "location": {
-                "gps": "1.3806217468119772, 103.74636438437074",
-                "address": "My House #, My building",
-                "city": {
-                  "name": "Jurong East"
-                },
-                "country": {
-                  "code": "SGP"
-                },
-                "area_code":"680230",
-                "state":{
-                  "name": "bayern"
-                }
-              },
-              "contact": {
-                "phone": "9886098860"
-              }
+              "url": "makerspace_logo.png",
+              "size_type": "sm"
             }
           ]
-        }
-      ],
+        },
+        "id": "1"
+      },
       "items": [
         {
           "id": "66b7b9bad166-4a3f-ada6-ca063dc9d321",
@@ -112,18 +90,40 @@
           }
         }
       ],
-      "payments": [
+      "fulfillments": [
         {
-          "collected_by": "BPP",
-          "params": {
-            "amount": "550",
-            "currency": "EUR",
-            "bank_account_number": "1234002341",
-            "bank_code": "INB0004321",
-            "bank_account_name": "Makerspace 3D printing Ltd"
+          "id": "f1",
+          "customer": {
+            "contact": {
+              "email": "fox.judie@abc.org",
+              "phone": "+91-9999999999"
+            },
+            "person": {
+              "name": "Judie Fox"
+            }
           },
-          "status": "NOT-PAID",
-          "type": "PRE-ORDER"
+          "stops": [
+            {
+              "type": "end",
+              "location": {
+                "gps": "1.3806217468119772, 103.74636438437074",
+                "address": "My House #, My building",
+                "city": {
+                  "name": "Jurong East"
+                },
+                "country": {
+                  "code": "SGP"
+                },
+                "area_code":"680230",
+                "state":{
+                  "name": "bayern"
+                }
+              },
+              "contact": {
+                "phone": "9886098860"
+              }
+            }
+          ]
         }
       ],
       "billing": {
@@ -138,20 +138,20 @@
         "email":"nobody@nomail.com",
         "phone":"9886098860"
       },
-      "provider": {
-        "descriptor": {
-          "name": "Makerspace",
-          "short_desc": "Makerspace",
-          "long_desc": "Makerspace, Hof",
-          "images": [
-            {
-              "url": "makerspace_logo.png",
-              "size_type": "sm"
-            }
-          ]
-        },
-        "id": "1"
-      },
+      "payments": [
+        {
+          "collected_by": "BPP",
+          "params": {
+            "amount": "550",
+            "currency": "EUR",
+            "bank_account_number": "1234002341",
+            "bank_code": "INB0004321",
+            "bank_account_name": "Makerspace 3D printing Ltd"
+          },
+          "status": "NOT-PAID",
+          "type": "PRE-ORDER"
+        }
+      ],
       "quote": {
         "breakup": [
           {

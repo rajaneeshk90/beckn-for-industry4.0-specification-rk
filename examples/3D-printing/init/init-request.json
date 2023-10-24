@@ -60,12 +60,7 @@
                 }
               ]
             }
-          ],
-          "xinput": {
-            "form": {
-              "submission_id": "e9a3b4a5-10f8-42c7-b888-dbf0e2edd684"
-            }
-          }
+          ]
         }
       ],
       "fulfillments": [
@@ -115,7 +110,22 @@
         },
         "email":"nobody@nomail.com",
         "phone":"9886098860"
-      }
+      },
+      "payments": [
+        {
+          "collected_by": "BPP",
+          "params": {
+            "amount": "550",
+            "currency": "EUR",
+            "bank_account_number": "1234002341",
+            "bank_code": "INB0004321",
+            "bank_account_name": "Makerspace 3D printing Ltd"
+          },
+          "status": "PAID",
+          "type": "PRE-ORDER",
+          "transaction_id": "a35b56cf-e5cf-41f1-9b5d-fa99d8d5ac8c"
+        }
+      ]
     }
   }
 }

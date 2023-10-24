@@ -48,33 +48,6 @@
             "category_ids": [
               "c3"
             ],
-            "xinput": {
-              "required": true,
-              "head": {
-                "descriptor": {
-                  "name": "Configuration Form Assembly"
-                },
-                "index": {
-                  "min": 0,
-                  "cur": 0,
-                  "max": 0
-                },
-                "headings": [
-                  "Configuration Details for Assembly Service"
-                ]
-              },
-              "form": {
-                "mime_type": "text/html",
-                "url": "https://formurl/orderdetails/assembly",
-                "resubmit": false,
-                "auth": {
-                  "descriptor": {
-                    "code": "jwt"
-                  },
-                  "value": "eyJhbGciOiJIUzI.eyJzdWIiOiIxMjM0NTY3O.SflKxwRJSMeKKF2QT4"
-                }
-              }
-            },
             "price": {
               "currency": "EUR",
               "value": "starting from 50 EUR"
@@ -94,7 +67,29 @@
               }
             ]
           }
-        ]
+        ],
+        "quote": {
+          "breakup": [
+            {
+              "price": {
+                "currency": "EUR",
+                "value": "200"
+              },
+              "title": "Base Price"
+            },
+            {
+              "price": {
+                "currency": "EUR",
+                "value": "50"
+              },
+              "title": "Tax"
+            }
+          ],
+          "price": {
+            "currency": "EUR",
+            "value": "250"
+          }
+        }
       }
     }
   }

@@ -19,6 +19,41 @@
   },
   "message": {
     "order": {
+      "provider": {
+        "descriptor": {
+          "name": "Makerspace",
+          "short_desc": "Makerspace",
+          "long_desc": "Makerspace, Hof",
+          "images": [
+            {
+              "url": "makerspace_logo.png",
+              "size_type": "sm"
+            }
+          ]
+        },
+        "id": "1"
+      },
+      "items": [
+        {
+          "id": "66b7b9bad166-4a3f-ada6-ca063dc9d321",
+          "descriptor": {
+            "images": [
+              {
+                "url": "https://makerspace/assembly/intermittent.img",
+                "size_type": "sm"
+              }
+            ],
+            "name": "Intermittent assembly type"
+          },
+          "category_ids": [
+            "c3"
+          ],
+          "price": {
+            "currency": "EUR",
+            "value": "starting from 200 EUR"
+          }
+        }
+      ],
       "fulfillments": [
         {
           "id": "f1",
@@ -55,27 +90,18 @@
           ]
         }
       ],
-      "items": [
-        {
-          "id": "66b7b9bad166-4a3f-ada6-ca063dc9d321",
-          "descriptor": {
-            "images": [
-              {
-                "url": "https://makerspace/assembly/intermittent.img",
-                "size_type": "sm"
-              }
-            ],
-            "name": "Intermittent assembly type"
-          },
-          "category_ids": [
-            "c3"
-          ],
-          "price": {
-            "currency": "EUR",
-            "value": "starting from 200 EUR"
-          }
-        }
-      ],
+      "billing": {
+        "name":"Industry buyer",
+        "address": "B005 aspire heights, Jurong East, SGP, 680230",
+        "state": {
+          "name": "Jurong East"
+        },
+        "city": {
+          "name": "Jurong East"
+        },
+        "email":"nobody@nomail.com",
+        "phone":"9886098860"
+      },
       "payments": [
         {
           "collected_by": "BPP",
@@ -90,32 +116,6 @@
           "type": "PRE-ORDER"
         }
       ],
-      "billing": {
-        "name":"Industry buyer",
-        "address": "B005 aspire heights, Jurong East, SGP, 680230",
-        "state": {
-          "name": "Jurong East"
-        },
-        "city": {
-          "name": "Jurong East"
-        },
-        "email":"nobody@nomail.com",
-        "phone":"9886098860"
-      },
-      "provider": {
-        "descriptor": {
-          "name": "Makerspace",
-          "short_desc": "Makerspace",
-          "long_desc": "Makerspace, Hof",
-          "images": [
-            {
-              "url": "makerspace_logo.png",
-              "size_type": "sm"
-            }
-          ]
-        },
-        "id": "1"
-      },
       "quote": {
         "breakup": [
           {

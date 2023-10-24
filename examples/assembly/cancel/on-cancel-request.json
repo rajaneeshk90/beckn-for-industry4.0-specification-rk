@@ -20,27 +20,18 @@
   "message": {
     "order": {
       "id":"b989c9a9-f603-4d44-b38d-26fd72286b38",
-      "fulfillments": [
-        {
-          "customer": {
-            "contact": {
-              "email": "fox.judie@abc.org",
-              "phone": "+91-81347776660"
-            },
-            "person": {
-              "name": "Judie Fox"
-            }
-          },
-          "id": "fid1",
-          "state": {
-            "descriptor": {
-              "code": "CANCELLED",
-              "short_desc": "cancellation reason..."
-            },
-            "updated_at": "2023-05-25T05:23:04.443Z"
+      "provider": {
+        "name": "Makerspace",
+        "short_desc": "Makerspace",
+        "long_desc": "Makerspace, Hof",
+        "images": [
+          {
+            "url": "makerspace_logo.png",
+            "size_type": "sm"
           }
-        }
-      ],
+        ],
+        "id": "1"
+      },
       "items": [
         {
           "id": "66b7b9bad166-4a3f-ada6-ca063dc9d321",
@@ -62,6 +53,39 @@
           }
         }
       ],
+      "fulfillments": [
+        {
+          "customer": {
+            "contact": {
+              "email": "fox.judie@abc.org",
+              "phone": "+91-81347776660"
+            },
+            "person": {
+              "name": "Judie Fox"
+            }
+          },
+          "id": "fid1",
+          "state": {
+            "descriptor": {
+              "code": "CANCELLED",
+              "short_desc": "cancellation reason..."
+            },
+            "updated_at": "2023-05-25T05:23:04.443Z"
+          }
+        }
+      ],
+      "billing": {
+        "name":"Industry buyer",
+        "address": "B005 aspire heights, Jurong East, SGP, 680230",
+        "state": {
+          "name": "Jurong East"
+        },
+        "city": {
+          "name": "Jurong East"
+        },
+        "email":"nobody@nomail.com",
+        "phone":"9886098860"
+      },
       "payments": [
         {
           "collected_by": "BPP",
@@ -77,6 +101,28 @@
           "transaction_id": "a35b56cf-e5cf-41f1-9b5d-fa99d8d5ac8c"
         }
       ],
+      "quote": {
+        "breakup": [
+          {
+            "price": {
+              "currency": "EUR",
+              "value": "200"
+            },
+            "title": "Base Price"
+          },
+          {
+            "price": {
+              "currency": "EUR",
+              "value": "50"
+            },
+            "title": "Tax"
+          }
+        ],
+        "price": {
+          "currency": "EUR",
+          "value": "250"
+        }
+      },
       "cancellation_terms" : [
         {
           "cancellation_fee" : {
@@ -86,19 +132,7 @@
             }
           }
         }
-      ],
-      "provider": {
-        "name": "Makerspace",
-        "short_desc": "Makerspace",
-        "long_desc": "Makerspace, Hof",
-        "images": [
-          {
-            "url": "makerspace_logo.png",
-            "size_type": "sm"
-          }
-        ],
-        "id": "1"
-      }
+      ]
     }
   }
 }

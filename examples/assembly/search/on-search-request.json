@@ -66,6 +66,16 @@
               }
             }
           ],
+          "fulfillments": [
+            {
+              "id": "f1",
+              "type": "Delivery"
+            },
+            {
+              "id": "f2",
+              "type": "Self-Pickup"
+            }
+          ],
           "items": [
             {
               "id": "66b7b9bad166-4a3f-ada6-ca063dc9d321",
@@ -84,17 +94,8 @@
               },
               "category_ids" : [
                 "c3"
-              ]
-            }
-          ],
-          "fulfillments": [
-            {
-              "id": "f1",
-              "type": "Delivery"
-            },
-            {
-              "id": "f2",
-              "type": "Self-Pickup"
+              ],
+              "fulfillment_ids": ["f1"]
             }
           ]
         }

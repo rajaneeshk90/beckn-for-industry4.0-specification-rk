@@ -89,29 +89,7 @@
           "type": "PRE-ORDER",
           "transaction_id": "a35b56cf-e5cf-41f1-9b5d-fa99d8d5ac8c"
         }
-      ],
-      "quote": {
-        "breakup": [
-          {
-            "price": {
-              "currency": "EUR",
-              "value": "200"
-            },
-            "title": "Base Price"
-          },
-          {
-            "price": {
-              "currency": "EUR",
-              "value": "50"
-            },
-            "title": "Tax"
-          }
-        ],
-        "price": {
-          "currency": "EUR",
-          "value": "250"
-        }
-      }
+      ]
     }
   }
 }

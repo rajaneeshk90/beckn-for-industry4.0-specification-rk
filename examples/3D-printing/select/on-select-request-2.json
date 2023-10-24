@@ -102,53 +102,48 @@
                 ]
               }
             ],
-            "xinput": {
-              "required": true,
-              "head": {
-                "descriptor": {
-                  "name": "Configuration Form"
-                },
-                "index": {
-                  "min": 0,
-                  "cur": 0,
-                  "max": 0
-                },
-                "headings": [
-                  "Configuration Details"
-                ]
-              },
-              "form": {
-                "mime_type": "text/html",
-                "url": "https://formurl/orderdetails/3d-printing",
-                "resubmit": false,
-                "auth": {
-                  "descriptor": {
-                    "code": "jwt"
-                  },
-                  "value": "eyJhbGciOiJIUzI.eyJzdWIiOiIxMjM0NTY3O.SflKxwRJSMeKKF2QT4"
-                }
-              }
-            },
             "price": {
               "currency": "EUR",
               "value": "starting from 200 EUR"
-            },
-            "fulfillments": [
+            }
+          }
+        ],
+        "fulfillments": [
+          {
+            "id": "f1",
+            "stops": [
               {
-                "id": "f1",
-                "stops": [
-                  {
-                    "type": "end",
-                    "location": {
-                      "gps": "1.3806217468119772, 103.74636438437074",
-                      "area_code": "680230"
-                    }
-                  }
-                ]
+                "type": "end",
+                "location": {
+                  "gps": "1.3806217468119772, 103.74636438437074",
+                  "area_code": "680230"
+                }
               }
             ]
           }
-        ]
+        ],
+        "quote": {
+          "breakup": [
+            {
+              "price": {
+                "currency": "EUR",
+                "value": "500"
+              },
+              "title": "Base Price"
+            },
+            {
+              "price": {
+                "currency": "EUR",
+                "value": "50"
+              },
+              "title": "Tax"
+            }
+          ],
+          "price": {
+            "currency": "EUR",
+            "value": "550"
+          }
+        }
       }
     }
   }
