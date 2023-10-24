@@ -45,7 +45,7 @@
             "name": "Intermittent assembly service"
           },
           "category_ids": [
-            "c3"
+            "p2c3"
           ],
           "price": {
             "currency": "EUR",

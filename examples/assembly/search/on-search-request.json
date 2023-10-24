@@ -38,28 +38,39 @@
           },
           "categories": [
             {
-              "id": "c1",
+              "id": "p2",
+              "descriptor": {
+                "code": "assembly",
+                "name": "Assembly"
+              }
+            },
+            {
+              "id": "p2c1",
+              "parent_category_id": "p2",
               "descriptor": {
                 "code": "classic",
                 "name": "Classic"
               }
             },
             {
-              "id": "c2",
+              "id": "p2c2",
+              "parent_category_id": "p2",
               "descriptor": {
                 "code": "automated",
                 "name": "Automated"
               }
             },
             {
-              "id": "c3",
+              "id": "p2c3",
+              "parent_category_id": "p2",
               "descriptor": {
                 "code": "intermittent",
                 "name": "Intermittent"
               }
             },
             {
-              "id": "c4",
+              "id": "p2c4",
+              "parent_category_id": "p2",
               "descriptor": {
                 "code": "lean",
                 "name": "Lean"

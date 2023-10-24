@@ -21,34 +21,34 @@
     "order": {
       "id":"b989c9a9-f603-4d44-b38d-26fd72286b38",
       "provider": {
-        "name": "Makerspace",
-        "short_desc": "Makerspace",
-        "long_desc": "Makerspace, Hof",
-        "images": [
-          {
-            "url": "makerspace_logo.png",
-            "size_type": "sm"
-          }
-        ],
+        "descriptor": {
+          "name": "Makerspace",
+          "short_desc": "Makerspace",
+          "long_desc": "Makerspace, Hof",
+          "images": [
+            {
+              "url": "makerspace_logo.png",
+              "size_type": "sm"
+            }
+          ]
+        },
         "id": "1"
       },
       "items": [
         {
           "id": "66b7b9bad166-4a3f-ada6-ca063dc9d321",
-          "time": {
-            "duration": "P1Y",
-            "label": "TENURE"
-          },
-          "fulfillment_ids": [
-            "FULFILMENT_ID"
-          ],
           "descriptor": {
-            "name": "Makerspace",
-            "short_desc": "Makerspace"
+            "images": [
+              {
+                "url": "https://makerspace/3d/SLAtype.img",
+                "size_type": "sm"
+              }
+            ],
+            "name": "SLA 3D Printing"
           },
-          "price": {
-            "value": "550"
-          },
+          "category_ids": [
+            "p1c1"
+          ],
           "tags": [
             {
               "descriptor": {
@@ -84,11 +84,22 @@
                 }
               ]
             }
-          ]
+          ],
+          "price": {
+            "currency": "EUR",
+            "value": "starting from 200 EUR"
+          }
         }
       ],
       "fulfillments": [
         {
+          "id": "f1",
+          "state": {
+            "descriptor": {
+              "code": "ORDER_ACCEPTED",
+              "short_desc": "Order has been confirmed..."
+            }
+          },
           "customer": {
             "contact": {
               "email": "fox.judie@abc.org",
@@ -98,14 +109,28 @@
               "name": "Judie Fox"
             }
           },
-          "id": "FULFILMENT_ID",
-          "state": {
-            "descriptor": {
-              "code": "FULFILLMENT-DETAIL-UPDATED",
-              "short_desc": "Fulfillment details successfully updated on customer request"
-            },
-            "updated_at": "2023-05-25T05:23:04.443Z"
-          }
+          "stops": [
+            {
+              "type": "end",
+              "location": {
+                "gps": "1.3806217468119772, 103.74636438437074",
+                "address": "My House #, My building",
+                "city": {
+                  "name": "Jurong East"
+                },
+                "country": {
+                  "code": "SGP"
+                },
+                "area_code":"680230",
+                "state":{
+                  "name": "bayern"
+                }
+              },
+              "contact": {
+                "phone": "9886098860"
+              }
+            }
+          ]
         }
       ],
       "billing": {
@@ -127,7 +152,8 @@
             "amount": "550",
             "currency": "EUR",
             "bank_account_number": "1234002341",
-            "bank_code": "INB0004321"
+            "bank_code": "INB0004321",
+            "bank_account_name": "Makerspace 3D printing Ltd"
           },
           "status": "PAID",
           "type": "PRE-ORDER",
