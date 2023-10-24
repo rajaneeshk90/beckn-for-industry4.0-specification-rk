@@ -85,7 +85,13 @@
           {
             "id": "f1"
           }
-        ]
+        ],
+        "quote": {
+          "price": {
+            "currency": "EUR",
+            "value": "50"
+          }
+        }
       }
     }
   }
